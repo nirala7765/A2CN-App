@@ -6,7 +6,7 @@ const FlipCard = ({ title, content, buttonText, backgroundColor, animationDurati
   };
 
   return (
-    <div className="card-2">
+    <div className="card">
       <div className="card">
         <div className="front" style={cardStyle}>
           <h3>{title}</h3>
