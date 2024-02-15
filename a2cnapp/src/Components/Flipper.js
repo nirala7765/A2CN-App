@@ -16,7 +16,7 @@ const FlipCard = ({ title, content, buttonText, backgroundColor, animationDurati
         <div className="back" style={cardStyle}>
           <h3>Back Side {title}</h3>
           <p>{content}</p>
-          <a href="#">{buttonText}</a>
+         
         </div>
       </div>
     </div>
