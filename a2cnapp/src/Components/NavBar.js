@@ -243,7 +243,7 @@ export function NavbarWithMegaMenu() {
           </Link>
 
 
-          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20connect%20with%20You%20For%20More%20Information">
+          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
           <Button href="" className="text-[15px]" variant="gradient" size="sm">
             Email us
           </Button>
@@ -276,7 +276,7 @@ export function NavbarWithMegaMenu() {
           </Link>
          
 
-          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20connect%20with%20You%20For%20More%20Information">
+          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
 
             <Button variant="gradient" size="sm" fullWidth>
               Email Us
