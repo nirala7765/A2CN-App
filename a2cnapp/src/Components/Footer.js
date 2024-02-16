@@ -100,6 +100,8 @@ function Footer() {
             </div>
             </div>
 
+            <hr/>
+
             <h1 className="text-white text-[20px] pb-5 bg-hrcolor text-center">
                 All rights reserved © 2024 A2CN
             </h1>
