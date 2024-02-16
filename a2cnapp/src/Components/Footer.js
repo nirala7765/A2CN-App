@@ -26,16 +26,14 @@ function Footer() {
                     <Link to="https://www.facebook.com/a2cn.in">
                     <FaFacebookSquare />
                     </Link>
-                    <Link to="">
+                    <Link to="https://www.instagram.com/a2cn.in/">
                     <FaInstagramSquare />
                     </Link>
-                    <Link to="">
+                    <Link to="https://www.linkedin.com/company/100496029/admin/feed/posts/">
                     <FaLinkedin />
                     </Link>
-                    <Link to="">
-                    <FaSquareXTwitter />
-                    </Link>
-                    <Link to="">
+                   
+                    <Link to="https://wa.link/a64rph">
                     <FaWhatsappSquare />
                     </Link>
                 </div>

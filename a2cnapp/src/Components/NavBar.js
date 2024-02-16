@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import logo from "../Images/nelogoA2cn.png";
 import {
@@ -235,12 +236,19 @@ export function NavbarWithMegaMenu() {
           <NavList />
         </div>
         <div className="hidden gap-2 lg:flex">
-          <Button className="text-[15px]" variant="text" size="sm" color="blue-gray">
-            call Us
-          </Button>
-          <Button className="text-[15px]" variant="gradient" size="sm">
+          <Link to="tel:+919608923255">
+            <Button href="" className="text-[15px]" variant="text" size="sm" color="blue-gray">
+              call Us
+            </Button>
+          </Link>
+
+
+          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20connect%20with%20You%20For%20More%20Information">
+          <Button href="" className="text-[15px]" variant="gradient" size="sm">
             Email us
           </Button>
+          </Link>
+         
         </div>
         <IconButton
           variant="text"
@@ -258,12 +266,24 @@ export function NavbarWithMegaMenu() {
       <Collapse open={openNav}>
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-          <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
-            Call Us
-          </Button>
-          <Button variant="gradient" size="sm" fullWidth>
-            Email Us
-          </Button>
+
+          <Link to="tel:+919608923255">
+
+            <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
+              Call Us
+            </Button>
+
+          </Link>
+         
+
+          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20connect%20with%20You%20For%20More%20Information">
+
+            <Button variant="gradient" size="sm" fullWidth>
+              Email Us
+            </Button>
+
+          </Link>
+         
         </div>
       </Collapse>
     </Navbar>
