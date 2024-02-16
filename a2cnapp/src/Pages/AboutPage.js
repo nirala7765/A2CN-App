@@ -143,7 +143,7 @@ function AboutPage() {
             </div>
 
             <div className="lg:flex justify-between mt-6 w-[85%] mx-auto md:w-full md:mx-0">
-              <div className="lg:w-[300px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
+              <div className="lg:w-[330px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
                   src={DirectorPhoto}
@@ -162,7 +162,7 @@ function AboutPage() {
                 </p>
               </div>
 
-              <div className="lg:w-[300px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
+              <div className="lg:w-[330px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
                   src={CtoNewImage}
@@ -179,7 +179,7 @@ function AboutPage() {
                 </p>
               </div>
 
-              <div className="lg:w-[300px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
+              <div className="lg:w-[330px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
                   src={CEOPhoto}
