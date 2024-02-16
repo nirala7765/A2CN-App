@@ -176,13 +176,13 @@ function NavList() {
 
       <Typography
         as="a"
-        href="/our-work"
+        href="/our-works"
         variant="small"
         color="blue-gray"
         className="font-medium"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-[20px]">
-          our-work
+          our-works
         </ListItem>
       </Typography>
       <Typography

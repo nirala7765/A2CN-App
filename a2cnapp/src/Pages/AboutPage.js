@@ -6,6 +6,9 @@ import { Player } from "@lottiefiles/react-lottie-player";
 
 import DirectorPhoto from "../Images/DirectorPhoto.png";
 import CEOPhoto from "../Images/CEOPHoto.png";
+import CTOImage from "../Images/CtoImage.jpg";
+import CtoNewImage from "../Images/ctonewphoto.jpg";
+
 
 
 import startup from "../Images/startups.svg";
@@ -162,7 +165,7 @@ function AboutPage() {
               <div className="lg:w-[300px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
-                  src={DirectorPhoto}
+                  src={CtoNewImage}
                   alt=""
                 />
                 <h1 className="mt-9 lg:text-[25px] font-bold">Mausham Singh</h1>
