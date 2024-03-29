@@ -1,15 +1,16 @@
 import React from 'react'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import Conatctleads from '../Components/Conatctleads'
 
 function ContactUs() {
   return (
     <div className='bg-newbg'>
 
     <Header/>
-    <div className='h-[800px] text-white text-[35px] justify-center'>
+    <div className=''>
 
-      <h1>Under Construction.........</h1>
+     <Conatctleads/>
 
     </div>
 
