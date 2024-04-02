@@ -41,27 +41,27 @@ function ContactLeads() {
     <div className="bg-newbg">
       <h1 className="text-[#09D8A1] text-[35px] font-bold">Contact Us</h1>
 
-      <h1 className="text-white text-[21px]">Any questions or remarks? Just write us a message!</h1>
+      <h1 className="text-white md:text-[21px] text-[15px]">Any questions or remarks? Just write us a message!</h1>
 
-      <div className="bg-[#09D8A1] w-[90%] rounded-md mx-auto h-[600px] mt-[30px] relative flex gap-4 py-10">
-        <div className="bg-newbg w-[45%] h-[400px] mt-[55px] ml-5 rounded-md text-white gap-5">
+      <div className="bg-[#09D8A1] w-[90%] rounded-md mx-auto lg:h-[600px] mt-[30px] relative md:flex  gap-4 py-10">
+        <div className="bg-newbg lg:w-[45%] w-[90%] mx-auto lg:h-[400px] lg:mt-[55px] mt-[20px] lg:ml-5 rounded-md text-white gap-5">
           <h1 className="text-[30px]  text-[#09D8A1] mt-[10px] mb-8">Contact Information</h1>
-          <div className="flex items-center text-[20px] gap-3 mt-2 ml-[80px]">
+          <div className="flex items-center text-[20px] gap-3 mt-2 lg:ml-[80px] ml-[50px]">
             <LuPhoneCall className="items-start mt-[6px]" />
             <h1>+91 9608923255</h1>
           </div>
 
-          <div className="flex items-center text-[20px] gap-3 mt-2 ml-[80px]">
+          <div className="flex items-center text-[20px] gap-3 mt-2  lg:ml-[80px] ml-[50px]">
             <MdOutlineMailOutline className="items-start mt-[6px]" />
             <h1>info.a2cn@gmail.com</h1>
           </div>
 
-          <div className="flex items-center text-[20px] gap-3 mt-2 ml-[80px]">
+          <div className="flex items-center text-[20px] gap-3 mt-2 lg:ml-[80px] ml-[50px]">
             <MdOutlineLocationOn className="items-start mt-[6px]" />
             <h1>Chennai</h1>
           </div>
 
-          <div className="text-white flex gap-3 text-[35px] justify-center mt-[50px] ">
+          <div className="text-white flex gap-3 text-[35px] justify-center lg:mt-[50px] my-[30px] pb-[30px] lg:pb-0">
             <a href="https://www.facebook.com/a2cn.in" target="_blank" rel="noopener noreferrer">
               <FaFacebookSquare />
             </a>
@@ -77,7 +77,7 @@ function ContactLeads() {
           </div>
         </div>
 
-        <div className="bg-transparent w-[50%] p-5 rounded-md">
+        <div className="bg-transparent lg:w-[50%] p-5 rounded-md">
           <form onSubmit={handleSubmit}>
             <h1 className="text-[30px] font-bold mb-5">Get in Touch</h1>
             <div className="mb-4">
@@ -139,12 +139,12 @@ function ContactLeads() {
               ></textarea>
             </div>
 
-            <button
+            <Button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-newbg  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
               Send
-            </button>
+            </Button>
 
           </form>
         </div>
