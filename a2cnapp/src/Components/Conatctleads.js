@@ -141,7 +141,7 @@ function ContactLeads() {
 
             <Button
               type="submit"
-              className="bg-newbg  text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-newbg  text-white font-bold py-3 px-11 rounded focus:outline-none focus:shadow-outline"
             >
               Send
             </Button>
