@@ -19,8 +19,10 @@ import reatilImage from "../Images/retailTech.webp";
 import IotImage from "../Images/iot.webp";
 
 import NiralaImage from "../Images/Nirala.JPG";
+import { Link } from "react-router-dom";
 
 function Homepage() {
+
   return (
     <div className="bg-newbg text-white">
       <Header />
@@ -152,9 +154,11 @@ function Homepage() {
               </p>
 
               <div className="mt-8 md:mt-11 text-start">
-                <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
-                  Explore Our Works
-                </Button>
+                <Link to="https://a2cn.vercel.app/our-works">
+                  <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
+                    Explore Our Works
+                  </Button>
+                </Link>
               </div>
             </div>
 
@@ -247,9 +251,13 @@ function Homepage() {
           </div>
 
           <div className="mt-8">
-            <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
-              Get In Touch
-            </Button>
+            <Link to="https://a2cn.vercel.app/contact-us">
+              <Button
+                
+                className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
+                Get In Touch
+              </Button>
+            </Link>
           </div>
         </div>
 
@@ -312,38 +320,45 @@ function Homepage() {
           </div>
         </div>
 
-
         <div>
+          <div className="w-5/6 mx-auto mt-6">
+            <div className="w-full flex">
+              <div className="w-[25%] lg:w-1/3  ">
+                <div className="w-[100%] md:w-full mt-[40px] bg-hrcolor h-[2px]"></div>
+              </div>
 
-        <div className="w-5/6 mx-auto mt-6">
-          <div className="w-full flex">
-            <div className="w-[25%] lg:w-1/3  ">
-              <div className="w-[100%] md:w-full mt-[40px] bg-hrcolor h-[2px]"></div>
+              <div className="w-[100%] lg:w-1/3 ">
+                <h1 className="text-[15px] lg:text-[25px] md:text-[30px] font-bold mt-7 md:mt-4 lg:mt-5 ">
+                  A Message From Our CEO
+                </h1>
+              </div>
+
+              <div className="w-[25%] md:w-1/3 ">
+                <div className="w-[100%] md:w-full mt-[40px] bg-hrcolor h-[2px]"></div>
+              </div>
             </div>
 
-            <div className="w-[100%] lg:w-1/3 ">
-              <h1 className="text-[15px] lg:text-[25px] md:text-[30px] font-bold mt-7 md:mt-4 lg:mt-5 ">
-                A Message From Our CEO
+            <div className="mt-8">
+              <img
+                className="w-[150px] h-[150px]  rounded-full object-cover object-center justify-center mx-auto"
+                src={NiralaImage}
+                alt=""
+              />
+
+              <p className="ml-3 text-[20px] md:text-[18px]  font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5 md:w-[80%] md:mx-auto">
+                Welcome to A2CN – where innovation meets excellence in Software
+                Development and IT Consulting. Explore our digital space to
+                witness cutting-edge solutions and tailored consulting services.
+                Join us in shaping the future of technology.
+              </p>
+              <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
+                Arun Kumar Nirala
+              </h1>
+              <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf  text-white">
+                Founder & CEO
               </h1>
             </div>
-
-            <div className="w-[25%] md:w-1/3 ">
-              <div className="w-[100%] md:w-full mt-[40px] bg-hrcolor h-[2px]"></div>
-            </div>
           </div>
-
-
-          <div className="mt-8">
-            <img className="w-[150px] h-[150px]  rounded-full object-cover object-center justify-center mx-auto" src={NiralaImage} alt=""/>
-
-            <p className="ml-3 text-[20px] md:text-[18px]  font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5 md:w-[80%] md:mx-auto">Welcome to A2CN – where innovation meets excellence in Software Development and IT Consulting. Explore our digital space to witness cutting-edge solutions and tailored consulting services. Join us in shaping the future of technology.</p>
-            <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">Arun Kumar Nirala</h1>
-            <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf  text-white">Founder & CEO</h1>
-          </div>
-
-
-        </div>
-          
         </div>
       </div>
 

@@ -38,7 +38,7 @@ function ContactLeads() {
   }
 
   return (
-    <div className="bg-newbg">
+    <div className="bg-newbg" id="contactusForm">
       <h1 className="text-[#09D8A1] text-[35px] font-bold">Contact Us</h1>
 
       <h1 className="text-white md:text-[21px] text-[15px]">Any questions or remarks? Just write us a message!</h1>
@@ -78,7 +78,7 @@ function ContactLeads() {
         </div>
 
         <div className="bg-transparent lg:w-[50%] p-5 rounded-md">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="">
             <h1 className="text-[30px] font-bold mb-5">Get in Touch</h1>
             <div className="mb-4">
               <input
