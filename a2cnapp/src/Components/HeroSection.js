@@ -21,7 +21,7 @@ function HeroSection() {
                         </h1>
 
                         <div className=" justify-start text-start mt-4 md:mt-7 ">
-                          <Link to="https://a2cn.vercel.app/contact-us">
+                          <Link to="https://maanc.com/contact-us">
                             <Button className="h-12 rounded-full hover:bg-black ml-[30px]">Get In Touch With us</Button>
 
 

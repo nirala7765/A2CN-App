@@ -154,7 +154,7 @@ function Homepage() {
               </p>
 
               <div className="mt-8 md:mt-11 text-start">
-                <Link to="https://a2cn.vercel.app/our-works">
+                <Link to="https://maanc.com/our-works">
                   <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
                     Explore Our Works
                   </Button>
@@ -253,7 +253,7 @@ function Homepage() {
           </div>
 
           <div className="mt-8">
-            <Link to="https://a2cn.vercel.app/contact-us">
+            <Link to="https://maanc.com/contact-us">
               <Button
                 
                 className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
