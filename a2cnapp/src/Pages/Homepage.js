@@ -213,12 +213,14 @@ function Homepage() {
                 </p>
               </div>
 
-              <div className="w-full md:w-1/3 space-y-4">
+              <div className="w-full md:w-1/3  space-y-4">
+
                 <img
-                  className="w-[40%] md:w-[40%] h-[auto]"
+                  className="w-[50%] md:w-[50%] h-[auto]"
                   src={websettingmage}
                   alt=""
                 />
+                
                 <h1 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Web & Mobile App Development
                 </h1>
