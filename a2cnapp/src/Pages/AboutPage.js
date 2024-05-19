@@ -157,7 +157,7 @@ function AboutPage() {
                 </h1>
                 <p className="text-center w-[80%] mx-auto mt-9 font-bold">
                   {" "}
-                  Mr.Amar, Founder and Director of A2CN , drives innovation and
+                  Mr.Amar, Founder and Director of MAANC , drives innovation and
                   growth in software solutions.
                 </p>
               </div>
@@ -174,7 +174,7 @@ function AboutPage() {
                 </h1>
                 <p className="text-center w-[80%] mx-auto mt-9 font-bold">
                   {" "}
-                  Ms.Mausham, CTO and UI Designer at A2CN Innovations, blends
+                  Ms.Mausham, CTO and UI Designer at MAANC Innovations, blends
                   tech and design for seamless, user-centric solutions.
                 </p>
               </div>
@@ -190,7 +190,7 @@ function AboutPage() {
                   Founder & CEO
                 </h1>
                 <p className="text-center w-[80%] mx-auto mt-9 font-bold">
-                  Arun, CEO and Founder of A2CN, leads with vision, driving
+                  Arun, CEO and Founder of MAANC, leads with vision, driving
                   innovation and strategic growth.
                 </p>
               </div>

@@ -6,7 +6,7 @@ import {
   FaWhatsappSquare,
 } from "react-icons/fa";
 
-import logo from "../Images/nelogoA2cn.png";
+import logo from "../Images/Maanc Logo.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -101,7 +101,7 @@ function Footer() {
             <hr/>
 
             <h1 className="text-white text-[20px] pb-5 bg-hrcolor text-center">
-                All rights reserved © 2024 A2CN
+                All rights reserved © 2024 MAANC
             </h1>
 
 

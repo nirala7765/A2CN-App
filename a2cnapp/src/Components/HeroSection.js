@@ -14,7 +14,7 @@ function HeroSection() {
                     <div className="mt-[10px] md:mt-[200px]">
 
                         <h1 className="justify-start text-start text-2xl md:text-5xl font-extrabold mt-[100px] ml-[30px]">
-                            A2CN:Your
+                            MAANC:Your
                             <br/>
                             Development partner
 

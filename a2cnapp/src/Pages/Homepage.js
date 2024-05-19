@@ -346,7 +346,7 @@ function Homepage() {
               />
 
               <p className="ml-3 text-[20px] md:text-[18px]  font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5 md:w-[80%] md:mx-auto">
-                Welcome to A2CN – where innovation meets excellence in Software
+                Welcome to MAANC – where innovation meets excellence in Software
                 Development and IT Consulting. Explore our digital space to
                 witness cutting-edge solutions and tailored consulting services.
                 Join us in shaping the future of technology.

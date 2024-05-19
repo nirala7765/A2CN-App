@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../Images/nelogoA2cn.png";
+import logo from "../Images/Maanc Logo.png";
 import {
   Navbar,
   Collapse,
