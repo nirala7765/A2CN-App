@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 import DirectorPhoto from "../Images/DirectorPhoto.png";
-import CEOPhoto from "../Images/CEOPHoto.png";
+import COOPhoto from "../Images/Riz.JPG";
 
 import CtoNewImage from "../Images/ctonewphoto.jpg";
 
@@ -64,7 +64,7 @@ function AboutPage() {
             </p>
           </div>
 
-          <div className="w-[85%] mx-auto text-white">
+          {/* <div className="w-[85%] mx-auto text-white">
             <div className="w-full flex mt-6">
               <div className="w-1/3 md:w-1/3">
                 <div className="w-full md:w-full md:mt-[40px] bg-hrcolor h-[2px] mt-[25px]"></div>
@@ -80,7 +80,7 @@ function AboutPage() {
                 <div className="w-full md:w-full md:mt-[40px] bg-hrcolor h-[2px] mt-[25px]"></div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="w-[85%] mx-auto text-white">
             <div className="w-full flex mt-6">
@@ -142,7 +142,7 @@ function AboutPage() {
               </div>
             </div>
 
-            <div className="md:flex justify-between mt-6 w-[85%] mx-auto md:w-full md:mx-0">
+            <div className="md:flex justify-between mt-6 w-[85%] mx-auto md:w-full md:mx-0 space-x-5">
               <div className="lg:w-[350px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
@@ -170,11 +170,11 @@ function AboutPage() {
                 />
                 <h1 className="mt-9 lg:text-[25px] font-bold">Mausham Singh</h1>
                 <h1 className="mt-1 lg:text-[20px] font-bold">
-                  CTO & UI Designer
+                  Founder & CTO
                 </h1>
                 <p className="text-center w-[80%] mx-auto mt-9 font-bold">
                   {" "}
-                  Ms.Mausham, CTO and UI Designer at MAANC Innovations, blends
+                  Ms.Mausham, CTO at MAANC Innovations, blends
                   tech and design for seamless, user-centric solutions.
                 </p>
               </div>
@@ -182,15 +182,15 @@ function AboutPage() {
               <div className="lg:w-[350px] md:w-[250px] bg-blue-gray-800 border-[1px] border-white justify-center items-center py-5 rounded-md shadow-md my-3">
                 <img
                   className="lg:w-[200px] lg:h-[200px] w-[150px] h-[150px] object-cover object-left-top rounded-full mx-auto"
-                  src={CEOPhoto}
+                  src={COOPhoto}
                   alt=""
                 />
-                <h1 className="mt-9 lg:text-[25px] font-bold">Arun Kumar</h1>
+                <h1 className="mt-9 lg:text-[25px] font-bold">Mohamed Rizwan R</h1>
                 <h1 className="mt-1 lg:text-[20px] font-bold">
-                  Founder & CEO
+                  Founder & COO
                 </h1>
                 <p className="text-center w-[80%] mx-auto mt-9 font-bold">
-                  Arun, CEO and Founder of MAANC, leads with vision, driving
+                  Mr.Rizwan, COO and Founder of MAANC, leads with vision, driving
                   innovation and strategic growth.
                 </p>
               </div>

@@ -18,7 +18,7 @@ import HitechImage from "../Images/hitech.webp";
 import reatilImage from "../Images/retailTech.webp";
 import IotImage from "../Images/iot.webp";
 
-import NiralaImage from "../Images/Nirala.JPG";
+import NiralaImage from "../Images/CEOPHoto.png";
 import { Link } from "react-router-dom";
 
 function Homepage() {
@@ -342,7 +342,7 @@ function Homepage() {
 
             <div className="mt-8">
               <img
-                className="w-[150px] h-[150px]  rounded-full object-cover object-center justify-center mx-auto"
+                className="w-[150px] h-[150px]  rounded-full object-cover object-top justify-center mx-auto"
                 src={NiralaImage}
                 alt=""
               />
