@@ -50,7 +50,7 @@ function Footer() {
                     Home
                     </h1>
                 </Link>
-                <Link to="/">
+                <Link to="/about-us">
                     <h1 className="cursor-pointer hover:text-blue-600 text-white text-[20px]">
                     About
                     </h1>
@@ -65,13 +65,13 @@ function Footer() {
                     Services
                     </h1>
                 </Link>
-                <Link to="/">
+                <Link to="/our-works">
                     <h1 className="cursor-pointer hover:text-blue-600 text-white text-[20px]">
                     Our Works
                     </h1>
                 </Link>
                
-                <Link to="/">
+                <Link to="/contact-us">
                     <h1 className="cursor-pointer hover:text-blue-600 text-white text-[20px]">
                     Contact us
                     </h1>
