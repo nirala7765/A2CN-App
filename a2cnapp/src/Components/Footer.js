@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div className="w-full md:w-1/3 h-[270px] gap-2 text-white">
+            <div className="w-full md:w-1/3 h-[270px] gap-2 text-white ">
                 <div>
                 <h1 className="font-bold text-[25px] mb-[10px] mt-[10px]">
                     Quick Links
@@ -80,20 +80,13 @@ function Footer() {
             </div>
 
             <div className="w-full md:w-1/3 h-[270px] text-white">
-                <h1 className="font-bold text-[25px] mb-[10px] mt-[10px] ">
+                <h1 className="font-bold text-[25px] mb-[10px] mt-[10px] text-left">
                 Locations
                 </h1>
                 <div className="gap-2">
-                <h1 className="text-[20px] hover:text-light-blue-800">Patna</h1>
+                    <h1 className="text-[20px] text-left ">Perungalattur, Tambram <br/>Chennai-600063</h1>
                
-                <h1 className="text-[20px] hover:text-light-blue-800">Buxar</h1>
-               
-                <h1 className="text-[20px] hover:text-light-blue-800">
-                    Belahari
-                </h1>
-                <h1 className="text-[20px] hover:text-light-blue-800">
-                    Jehanabd
-                </h1>
+
                 </div>
             </div>
             </div>
