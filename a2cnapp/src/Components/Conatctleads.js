@@ -53,7 +53,7 @@ function ContactLeads() {
 
           <div className="flex items-center text-[20px] gap-3 mt-2  lg:ml-[80px] ml-[50px]">
             <MdOutlineMailOutline className="items-start mt-[6px]" />
-            <h1>info.a2cn@gmail.com</h1>
+            <h1>info.maanc@gmail.com</h1>
           </div>
 
           <div className="flex items-center text-[20px] gap-3 mt-2 lg:ml-[80px] ml-[50px]">
