@@ -20,9 +20,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import {
-  SunIcon,
-} from "@heroicons/react/24/solid";
+import { SunIcon } from "@heroicons/react/24/solid";
 
 import { FaCode } from "react-icons/fa";
 import { DiAndroid } from "react-icons/di";
@@ -32,16 +30,19 @@ const navListMenuItems = [
     title: "Web Development",
     description: "Meet and learn about our dedication",
     icon: FaCode,
+    path: "/web-development",
   },
   {
     title: "Mobile Application Development",
     description: "Find the perfect solution for your needs.",
     icon: DiAndroid,
+    path: "/application-development",
   },
   {
     title: "Digital Marketing",
     description: "Learn how we can help you achieve your goals.",
     icon: SunIcon,
+    path: "/digital-marketing",
   },
 ];
 
@@ -49,10 +50,10 @@ function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const renderItems = navListMenuItems.map(
-    ({ icon, title, description }, key) => (
-      <a href="#" key={key}>
+    ({ icon, title, description, path }, key) => (
+      <Link to={path} key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
-          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+          <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2">
             {React.createElement(icon, {
               strokeWidth: 2,
               className: "h-6 text-gray-900 w-6",
@@ -74,7 +75,7 @@ function NavListMenu() {
             </Typography>
           </div>
         </MenuItem>
-      </a>
+      </Link>
     )
   );
 
@@ -185,7 +186,10 @@ export function NavbarWithMegaMenu() {
     <Navbar className="mx-auto max-w-screen-full px-4 py-4">
       <div className="flex items-center justify-between text-blue-gray-900">
         <div>
-          <img className="w-[160px] h-[80px]" src={logo} alt="logo" />
+          <Link to="/">
+            <img className="w-[160px] h-[80px]" src={logo} alt="logo" />
+          </Link>
+          
         </div>
         <div className="hidden lg:block">
           <NavList />
@@ -196,7 +200,7 @@ export function NavbarWithMegaMenu() {
               Call Us
             </Button>
           </Link>
-          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
+          <Link to="mailto:info.maanc@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
             <Button className="text-[15px]" variant="gradient" size="sm">
               Email Us
             </Button>
