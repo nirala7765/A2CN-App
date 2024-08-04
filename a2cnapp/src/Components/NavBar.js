@@ -21,64 +21,27 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import {
-  GlobeAmericasIcon,
-  NewspaperIcon,
-  RectangleGroupIcon,
-  SquaresPlusIcon,
   SunIcon,
-  TagIcon,
 } from "@heroicons/react/24/solid";
 
 import { FaCode } from "react-icons/fa";
-
 import { DiAndroid } from "react-icons/di";
 
-
 const navListMenuItems = [
-  {
-    title: "Products",
-    description: "Find the perfect solution for your needs.",
-    icon: SquaresPlusIcon,
-  },
   {
     title: "Web Development",
     description: "Meet and learn about our dedication",
     icon: FaCode,
   },
   {
-    title: "Mobile Application Devlopement",
+    title: "Mobile Application Development",
     description: "Find the perfect solution for your needs.",
     icon: DiAndroid,
   },
   {
-    title: "Digital MArketing",
+    title: "Digital Marketing",
     description: "Learn how we can help you achieve your goals.",
     icon: SunIcon,
-  },
-  {
-    title: "Search Engine Optimization(SEO)",
-    description: "Reach out to us for assistance or inquiries",
-    icon: GlobeAmericasIcon,
-  },
-  {
-    title: "Email Marketing",
-    description: "Find the perfect solution for your needs.",
-    icon: NewspaperIcon,
-  },
-  {
-    title: "Social Media Marketing",
-    description: "Read insightful articles, tips, and expert opinions.",
-    icon: NewspaperIcon,
-  },
-  {
-    title: "Google Analytics",
-    description: "Find the perfect solution for your needs.",
-    icon: RectangleGroupIcon,
-  },
-  {
-    title: "Ai Integration & ChatBot",
-    description: "Explore limited-time deals and bundles",
-    icon: TagIcon,
   },
 ];
 
@@ -90,7 +53,6 @@ function NavListMenu() {
       <a href="#" key={key}>
         <MenuItem className="flex items-center gap-3 rounded-lg">
           <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
-            {" "}
             {React.createElement(icon, {
               strokeWidth: 2,
               className: "h-6 text-gray-900 w-6",
@@ -128,7 +90,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-medium">
             <ListItem
-              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-[20px] "
+              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-[20px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -174,7 +136,6 @@ function NavList() {
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-[20px]">Home</ListItem>
       </Typography>
       <NavListMenu />
-
       <Typography
         as="a"
         href="/our-works"
@@ -183,7 +144,7 @@ function NavList() {
         className="font-medium"
       >
         <ListItem className="flex items-center gap-2 py-2 pr-4 text-[20px]">
-          our-works
+          Our-Works
         </ListItem>
       </Typography>
       <Typography
@@ -223,32 +184,23 @@ export function NavbarWithMegaMenu() {
   return (
     <Navbar className="mx-auto max-w-screen-full px-4 py-4">
       <div className="flex items-center justify-between text-blue-gray-900">
-        
-
         <div>
-          <img className="w-[160px] h-[80px]" src={logo} alt=""/>
+          <img className="w-[160px] h-[80px]" src={logo} alt="logo" />
         </div>
-
-
-
-
         <div className="hidden lg:block">
           <NavList />
         </div>
         <div className="hidden gap-2 lg:flex">
           <Link to="tel:+919608923255">
-            <Button href="" className="text-[15px]" variant="text" size="sm" color="blue-gray">
-              call Us
+            <Button className="text-[15px]" variant="text" size="sm" color="blue-gray">
+              Call Us
             </Button>
           </Link>
-
-
           <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
-          <Button href="" className="text-[15px]" variant="gradient" size="sm">
-            Email us
-          </Button>
+            <Button className="text-[15px]" variant="gradient" size="sm">
+              Email Us
+            </Button>
           </Link>
-         
         </div>
         <IconButton
           variant="text"
@@ -266,24 +218,16 @@ export function NavbarWithMegaMenu() {
       <Collapse open={openNav}>
         <NavList />
         <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-
           <Link to="tel:+919608923255">
-
             <Button variant="outlined" size="sm" color="blue-gray" fullWidth>
               Call Us
             </Button>
-
           </Link>
-         
-
-          <Link to="mailto:arunmaushamg@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
-
+          <Link to="mailto:info.maanc@gmail.com?subject=I%20want%20to%20connect%20with%20you%20for%20More%20Information%20%20">
             <Button variant="gradient" size="sm" fullWidth>
               Email Us
             </Button>
-
           </Link>
-         
         </div>
       </Collapse>
     </Navbar>
