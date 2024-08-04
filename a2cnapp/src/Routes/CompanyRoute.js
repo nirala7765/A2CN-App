@@ -7,6 +7,7 @@ import AboutPage from '../Pages/AboutPage'
 import ContactUs from '../Pages/ContactUs'
 import BlogPage from '../Pages/BlogPage'
 import ContactLeads from '../Components/Conatctleads'
+import Error_Page from '../Pages/Error_Page'
 
 function CompanyRoute() {
   return (
@@ -18,6 +19,7 @@ function CompanyRoute() {
         <Route path='/contact-us' element={<ContactUs/>}/>
         <Route path="/contact-us/ContactLeads" Component={ContactLeads} />
         <Route path='/blogs' element={<BlogPage/>}/>
+        <Route path='error' element={<Error_Page/>}/>
     </Routes>
   )
 }
