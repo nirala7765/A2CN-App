@@ -15,9 +15,9 @@ function Webpage() {
               <div className="md:w-1/2 bg-transparent">
                 <div className="mt-[10px] lg:mt-[200px] md:mb-[15px]">
                   <h1 className="text-start text-2xl md:text-6xl font-extrabold mt:-[20px] md:mt-[100px] ml-[30px]">
-                    Projects <br/>
-                    &<br/>
-                    Outcomes
+                    Website <br/>
+                    <br/>
+                    Development
 
 
                   </h1>
