@@ -21,7 +21,6 @@ function CompanyRoute() {
         <Route path='/our-works' element={<Ourwork/>}/>
         <Route path='/about-us' element={<AboutPage/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
-        <Route path="/contact-us/ContactLeads" Component={ContactLeads} />
         <Route path='/blogs' element={<BlogPage/>}/>
         <Route path='error' element={<Error_Page/>}/>
         <Route path='/web-development' element={<Webpage/>} /> 
