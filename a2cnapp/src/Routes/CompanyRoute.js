@@ -22,7 +22,7 @@ function CompanyRoute() {
         <Route path='/about-us' element={<AboutPage/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
         <Route path='/blogs' element={<BlogPage/>}/>
-        <Route path='error' element={<Error_Page/>}/>
+        <Route path='/error' element={<Error_Page/>}/>
         <Route path='/web-development' element={<Webpage/>} /> 
         <Route path='/application-Development' element={<Mobileapp/>} />
         <Route path='/digital-Marketing' element={<DigitalMarketing/>} />
