@@ -36,9 +36,9 @@ function Homepage() {
             </div>
 
             <div className="w-1/3 md:w-1/3 ">
-              <h1 className="text-[15px] md:text-[35px] font-bold mt-[15px] md:mt-3 ">
+              <h2 className="text-[15px] md:text-[35px] font-bold mt-[15px] md:mt-3 ">
                 What We Do?
-              </h1>
+              </h2>
             </div>
 
             <div className="w-1/3 md:w-1/3 ">
@@ -66,9 +66,9 @@ function Homepage() {
             </div>
 
             <div className="w-[100%] md:w-1/3 h-[200px] md:h-[100px]">
-              <h1 className="text-[20px] md:text-[25px] font-bold mt-4 ">
+              <h2 className="text-[20px] md:text-[25px] font-bold mt-4 ">
                 End-to-End Development
-              </h1>
+              </h2>
             </div>
 
             <div className="w-[25%] md:w-1/3 h-[200px] md:h-[100px]">
@@ -87,10 +87,10 @@ function Homepage() {
             </div>
 
             <div className="w-full md:w-[500px] md:ml-[250px] mt-5 md:mt-11">
-              <h1 className="text-start text-[30px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
+              <h2 className="text-start text-[30px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
                 You Manage The Business,
                 <br /> We Handle The Application
-              </h1>
+              </h2>
 
               <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 We cover all the bits and pieces needed to develop top-notch,
@@ -104,9 +104,9 @@ function Homepage() {
 
           <div className="mt-9 gap-5 flex flex-col-reverse md:flex-row">
             <div className="w-full md:w-[500px]  md:mt-[60px]">
-              <h1 className="text-start text-[30px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
+              <h2 className="text-start text-[30px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
                 Mobile and Web Apps for Startups and Enterprises
-              </h1>
+              </h2>
 
               <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 Transform your business landscape by embracing the power of
@@ -139,13 +139,13 @@ function Homepage() {
         <div className="w-5/6 mx-auto">
           <div className="mt-9 gap-5 flex flex-col-reverse md:flex-row">
             <div className="md:mt-11 md:w-[60%]">
-              <h1 className="text-start text-[40px] md:text-[50px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
+              <h2 className="text-start text-[40px] md:text-[50px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
                 Explore Our Work
-              </h1>
+              </h2>
 
-              <h1 className="text-start text-[25px] md:text-[30px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-tg">
+              <h2 className="text-start text-[25px] md:text-[30px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-tg">
                 Results for Innovative Companies
-              </h1>
+              </h2>
 
               <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 As a product development company, we help businesses ideate,
@@ -180,9 +180,9 @@ function Homepage() {
                 alt=""
               />
 
-              <h1 className="text-[45px] md:text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
+              <h2 className="text-[45px] md:text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
                 Collaborative & Scientific Approach
-              </h1>
+              </h2>
 
               <p className="ml-3 text-[20px] md:text-[18px] text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 Our custom Agile development method puts you in control,
@@ -202,9 +202,9 @@ function Homepage() {
                   src={puzzleonHand}
                   alt=""
                 />
-                <h1 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
+                <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Solutions for Startups and Enterprises
-                </h1>
+                </h2>
                 <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold ">
                   We address all design and technical challenges, identify any
                   risk areas, and create a sound foundation for your product
@@ -221,9 +221,9 @@ function Homepage() {
                   alt=""
                 />
                 
-                <h1 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
+                <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Web & Mobile App Development
-                </h1>
+                </h2>
                 <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold ">
                   Whether your app needs to be built using Ruby on Rails,
                   Kotlin, Swift, or some other programming language, we hit
@@ -239,9 +239,9 @@ function Homepage() {
                   src={ProductDesignImage}
                   alt=""
                 />
-                <h1 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
+                <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Product Design
-                </h1>
+                </h2>
                 <p className="w-full text-start font-gtwalsheim font-arial font-gadget font-sansf font-bold ">
                   Our app development approach uses design as a means of
                   crafting innovative digital experiences. We rigorously use
@@ -267,57 +267,57 @@ function Homepage() {
 
         <div className="w-5/6 mx-auto mt-11">
           <div>
-            <h1 className="text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
+            <h2 className="text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold">
               Some of the Industries We Currently Serve
-            </h1>
+            </h2>
           </div>
 
           <div className="w-full flex flex-wrap lg:gap-4 md:gap-8 md:space-y-2  space-y-2">
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer ">
               <img className="w-full" src={EdTechImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 EdTech
-              </h1>
+              </h2>
             </div>
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
               <img className="w-full" src={FintechImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 FinTech
-              </h1>
+              </h2>
             </div>
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
               <img className="w-full" src={MedTechImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 MedTech
-              </h1>
+              </h2>
             </div>
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
               <img className="w-full" src={HitechImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 HiTech
-              </h1>
+              </h2>
             </div>
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
               <img className="w-full" src={reatilImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 Reatil
-              </h1>
+              </h2>
             </div>
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
               <img className="w-full" src={IotImage} alt="" />
-              <h1 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
+              <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 IOT
-              </h1>
+              </h2>
             </div>
           </div>
         </div>
@@ -330,9 +330,9 @@ function Homepage() {
               </div>
 
               <div className="w-[100%] lg:w-1/3 ">
-                <h1 className="text-[15px] lg:text-[25px] md:text-[30px] font-bold mt-7 md:mt-4 lg:mt-5 ">
+                <h2 className="text-[15px] lg:text-[25px] md:text-[30px] font-bold mt-7 md:mt-4 lg:mt-5 ">
                   A Message From Our CEO
-                </h1>
+                </h2>
               </div>
 
               <div className="w-[25%] md:w-1/3 ">
@@ -353,12 +353,12 @@ function Homepage() {
                 witness cutting-edge solutions and tailored consulting services.
                 Join us in shaping the future of technology.
               </p>
-              <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
+              <h2 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
                 Arun Kumar Nirala
-              </h1>
-              <h1 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf  text-white">
+              </h2>
+              <h2 className="text-[25px] md:text-[25px] font-gtwalsheim font-arial font-gadget font-sansf  text-white">
                 Founder & CEO
-              </h1>
+              </h2>
             </div>
           </div>
         </div>

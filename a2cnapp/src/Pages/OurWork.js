@@ -42,7 +42,7 @@ function OurWork() {
       </section>
       
       <main className='h-[800px] flex items-center justify-center text-white text-[35px]'>
-        <h1>Under Construction...</h1>
+        <h3>Under Construction...</h3>
       </main>
 
       <Footer/>
