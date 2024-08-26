@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarWithMegaMenu } from './NavBar'
-import Ribbontext from './Ribbontext'
+
 
 function Header() {
   return (

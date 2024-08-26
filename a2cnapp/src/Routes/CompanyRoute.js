@@ -5,7 +5,7 @@ import ServicePage from '../Pages/ServicePage'
 import Ourwork from '../Pages/OurWork'
 import AboutPage from '../Pages/AboutPage'
 import ContactUs from '../Pages/ContactUs'
-import BlogPage from '../Pages/BlogPage'
+// import BlogPage from '../Pages/BlogPage'
 import ContactLeads from '../Components/Conatctleads'
 import ErrorPage from '../Pages/ErrorPage'
 import Webpage from '../Pages/WebPage'
@@ -21,7 +21,7 @@ function CompanyRoute() {
         <Route path='/our-works' element={<Ourwork/>}/>
         <Route path='/about-us' element={<AboutPage/>}/>
         <Route path='/contact-us' element={<ContactUs/>}/>
-        <Route path='/blogs' element={<BlogPage/>}/>
+          {/* <Route path='/blogs' element={<BlogPage/>}/>  */}
         <Route path='/error' element={<ErrorPage/>}/>
         <Route path='/web-development' element={<Webpage/>} /> 
         <Route path='/application-Development' element={<Mobileapp/>} />

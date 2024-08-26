@@ -187,7 +187,7 @@ export function NavbarWithMegaMenu() {
       <div className="flex items-center justify-between text-blue-gray-900">
         <div>
           <Link to="/">
-            <img className="w-[160px] h-[80px]" src={logo} alt="logo" />
+            <img className="w-[160px] h-[80px]" src={logo} alt="Maanc logo" />
           </Link>
           
         </div>

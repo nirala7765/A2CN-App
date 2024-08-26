@@ -18,7 +18,7 @@ function Footer() {
                 <div>
                 <div className="my-3">
                     <Link to="/">
-                    <img className="w-[260px] h-[200px]" src={logo} alt="" />
+                    <img className="w-[260px] h-[200px]" src={logo} alt="Maanc Logo" />
                     </Link>
                 </div>
 

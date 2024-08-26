@@ -82,7 +82,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[400px] h-[450px]"
                 src={imagesalute}
-                alt=""
+                alt="Image Salute"
               />
             </div>
 
@@ -122,7 +122,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[550px] h-[450px]"
                 src={cybersecurityimage}
-                alt=""
+                alt="Cyber Security Image"
               />
             </div>
           </div>
@@ -154,7 +154,7 @@ function Homepage() {
               </p>
 
               <div className="mt-8 md:mt-11 text-start">
-                <Link to="https://maanc.com/our-works">
+                <Link to="https://www.maanc.com/our-works">
                   <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
                     Explore Our Works
                   </Button>
@@ -167,7 +167,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[550px] h-[450px]"
                 src={cellphoneDesignImage}
-                alt=""
+                alt="Cellphone Design Image"
               />
             </div>
           </div>
@@ -177,7 +177,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[100%] h-[auto]"
                 src={Puzzlephoto}
-                alt=""
+                alt="Puzzle Photo"
               />
 
               <h2 className="text-[45px] md:text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
@@ -200,7 +200,7 @@ function Homepage() {
                 <img
                   className="w-[50%] md:w-[50%] h-[auto]"
                   src={puzzleonHand}
-                  alt=""
+                  alt="Puzzle on Hand"
                 />
                 <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Solutions for Startups and Enterprises
@@ -218,7 +218,7 @@ function Homepage() {
                 <img
                   className="w-[50%] md:w-[50%] h-[auto]"
                   src={websettingmage}
-                  alt=""
+                  alt="Web Setting Image"
                 />
                 
                 <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
@@ -237,7 +237,7 @@ function Homepage() {
                 <img
                   className="w-[40%] md:w-[50%] h-[auto]"
                   src={ProductDesignImage}
-                  alt=""
+                  alt="Product Design Image"
                 />
                 <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Product Design
@@ -253,7 +253,7 @@ function Homepage() {
           </div>
 
           <div className="mt-8">
-            <Link to="https://maanc.com/contact-us">
+            <Link to="https://www.maanc.com/contact-us">
               <Button
                 
                 className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
@@ -274,7 +274,7 @@ function Homepage() {
 
           <div className="w-full flex flex-wrap lg:gap-4 md:gap-8 md:space-y-2  space-y-2">
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer ">
-              <img className="w-full" src={EdTechImage} alt="" />
+              <img className="w-full" src={EdTechImage} alt="EdTech Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 EdTech
               </h2>
@@ -282,7 +282,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={FintechImage} alt="" />
+              <img className="w-full" src={FintechImage} alt="FinTech Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 FinTech
               </h2>
@@ -290,7 +290,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={MedTechImage} alt="" />
+              <img className="w-full" src={MedTechImage} alt="Med Tech Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 MedTech
               </h2>
@@ -298,7 +298,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={HitechImage} alt="" />
+              <img className="w-full" src={HitechImage} alt="Hi Tech Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 HiTech
               </h2>
@@ -306,7 +306,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={reatilImage} alt="" />
+              <img className="w-full" src={reatilImage} alt="Reatil Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 Reatil
               </h2>
@@ -314,7 +314,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={IotImage} alt="" />
+              <img className="w-full" src={IotImage} alt="Iot Image" />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 IOT
               </h2>
@@ -344,7 +344,7 @@ function Homepage() {
               <img
                 className="w-[150px] h-[150px]  rounded-full object-cover object-top justify-center mx-auto"
                 src={NiralaImage}
-                alt=""
+                alt="CEO Image"
               />
 
               <p className="ml-3 text-[20px] md:text-[18px]  font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5 md:w-[80%] md:mx-auto">
