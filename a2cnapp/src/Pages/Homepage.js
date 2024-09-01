@@ -11,6 +11,11 @@ import puzzleonHand from "../Images/puzzleonhand.svg";
 import websettingmage from "../Images/websetting.svg";
 import ProductDesignImage from "../Images/productdesign.svg";
 
+// Helmet For Meta Tags
+
+import { Helmet } from 'react-helmet';
+
+
 import EdTechImage from "../Images/education.webp";
 import FintechImage from "../Images/fintech.webp";
 import MedTechImage from "../Images/medtech.webp";
@@ -25,6 +30,60 @@ function Homepage() {
 
   return (
     <div className="bg-newbg text-white">
+
+{/* Meta Tags Open*/}
+
+<Helmet>
+        {/* Primary Meta Tags */}
+        <title>MAANC Technology | Leading IT Consulting & Software Solutions</title>
+        <meta
+          name="description"
+          content="MAANC Technology provides expert IT consulting, innovative web & mobile app development, and comprehensive digital marketing solutions to drive your business forward."
+        />
+        <meta
+          name="keywords"
+          content="IT consulting, web development, mobile app development, digital marketing, software solutions, AI solutions, agile development, product design, MAANC Technology"
+        />
+        <meta name="author" content="MAANC Technology" />
+        <link rel="canonical" href="https://www.maanc.com/" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.maanc.com/" />
+        <meta
+          property="og:title"
+          content="MAANC Technology | Leading IT Consulting & Software Solutions"
+        />
+        <meta
+          property="og:description"
+          content="MAANC Technology provides expert IT consulting, innovative web & mobile app development, and comprehensive digital marketing solutions to drive your business forward."
+        />
+        <meta
+          property="og:image"
+          content="https://www.maanc.com/images/og-image.jpg"
+        />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.maanc.com/" />
+        <meta
+          property="twitter:title"
+          content="MAANC Technology | Leading IT Consulting & Software Solutions"
+        />
+        <meta
+          property="twitter:description"
+          content="MAANC Technology provides expert IT consulting, innovative web & mobile app development, and comprehensive digital marketing solutions to drive your business forward."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.maanc.com/images/twitter-image.jpg"
+        />
+      </Helmet>
+
+{/* Meta Tags Close */}
+
+
+
       <Header />
       <HeroSection />
 
