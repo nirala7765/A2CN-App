@@ -78,3 +78,39 @@ span[role="img"] {
   font-size: 1.5em;
   margin-right: 0.5rem;
 }
+
+@keyframes growWord {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+@keyframes shrinkWord {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+.animated-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.grow {
+  animation: growWord 1s forwards;
+}
+
+.shrink {
+  animation: shrinkWord 1s forwards;
+}

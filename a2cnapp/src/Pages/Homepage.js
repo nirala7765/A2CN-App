@@ -114,7 +114,7 @@ function Homepage() {
             <p className="w-4/6 md:w-full mx-auto text-[20px] md:text-[18px] font-gtwalsheim font-arial font-gadget font-sans font-bold text-start mt-8">
             Our approach goes beyond delivering excellent technical solutions; we focus on aligning our expertise with your business goals, 
             helping you achieve sustainable growth and success. Have questions? Feel free to explore our  
-              <Link to='https://www.maanc.com/faqs' className="bg-orange-800 "> FAQs </Link> for answers. 
+              <Link to='https://www.maanc.com/faqs' className=" border-b-4  border-orange-500  hover:border-teal-500 "> FAQs </Link> for answers. 
             If your query isn't covered, don’t hesitate to reach out—we’re here to help!
             </p>
           </div>
