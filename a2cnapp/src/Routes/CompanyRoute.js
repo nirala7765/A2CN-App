@@ -11,6 +11,7 @@ import ErrorPage from '../Pages/ErrorPage'
 import Webpage from '../Pages/WebPage'
 import DigitalMarketing from '../Pages/DigitamMarketing'
 import Mobileapp from '../Pages/Mobileapp'
+import FAQs from '../Pages/FAQs'
 
 
 function CompanyRoute() {
@@ -26,6 +27,7 @@ function CompanyRoute() {
         <Route path='/web-development' element={<Webpage/>} /> 
         <Route path='/application-Development' element={<Mobileapp/>} />
         <Route path='/digital-Marketing' element={<DigitalMarketing/>} />
+        <Route path='/faqs' element={<FAQs/>} />
     </Routes>
   )
 }

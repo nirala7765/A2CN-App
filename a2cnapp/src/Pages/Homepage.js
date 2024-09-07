@@ -63,7 +63,7 @@ function Homepage() {
           content="https://www.maanc.com/images/og-image.jpg"
         />
 
-        {/* Twitter */}
+        {/* Twitter */}-
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://www.maanc.com/" />
         <meta
@@ -112,8 +112,10 @@ function Homepage() {
             </p>
 
             <p className="w-4/6 md:w-full mx-auto text-[20px] md:text-[18px] font-gtwalsheim font-arial font-gadget font-sans font-bold text-start mt-8">
-              We stand out for our top development skills but we are much more
-              than that. We are a genuine strategic business partner.
+            Our approach goes beyond delivering excellent technical solutions; we focus on aligning our expertise with your business goals, 
+            helping you achieve sustainable growth and success. Have questions? Feel free to explore our  
+              <Link to='https://www.maanc.com/faqs' className="bg-orange-800 "> FAQs </Link> for answers. 
+            If your query isn't covered, don’t hesitate to reach out—we’re here to help!
             </p>
           </div>
         </div>
