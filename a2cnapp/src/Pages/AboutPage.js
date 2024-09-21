@@ -3,6 +3,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import { Button } from "@material-tailwind/react";
 import { Player } from "@lottiefiles/react-lottie-player";
+import { Link } from "react-router-dom";
 
 import DirectorPhoto from "../Images/DirectorPhoto.png";
 import COOPhoto from "../Images/Riz.JPG";
@@ -27,9 +28,11 @@ function AboutPage() {
                   Building Apps That Make Life Better
                 </h1>
                 <div className="justify-start text-start mt-4 md:mt-7">
-                  <Button className="h-12 rounded-full hover:bg-black ml-[30px]">
-                    Get In Touch With us
-                  </Button>
+                <Link to="https://maanc.com/contact-us">
+            <Button className="h-12 px-8 rounded-full shadow-teal-700 bg-newbg text-white hover:bg-black transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+              Contact Us Now
+            </Button>
+          </Link>
                 </div>
               </div>
             </div>

@@ -192,7 +192,7 @@ function Homepage() {
         <div className="mt-[20px] md:mt-0">
           <Link to='https://www.maanc.com/web-development'>
 
-          <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
+          <Button className="h-12 px-8 rounded-full shadow-teal-700 bg-newbg text-white hover:bg-black transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
             Our Services
           </Button>
           
@@ -221,7 +221,7 @@ function Homepage() {
 
               <div className="mt-8 md:mt-11 text-start">
                 <Link to="https://www.maanc.com/our-works">
-                  <Button className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
+                  <Button className="h-12 px-8 rounded-full shadow-teal-700 bg-newbg text-white hover:bg-black transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
                     Explore Our Works
                   </Button>
                 </Link>
@@ -322,7 +322,7 @@ function Homepage() {
             <Link to="https://www.maanc.com/contact-us">
               <Button
                 
-                className="bg-hrcolor text-black font-bold text-sm md:text-base hover:text-white px-6 md:px-[50px] rounded-full">
+                className="h-12 px-8 rounded-full shadow-teal-700 bg-newbg text-white hover:bg-black transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
                 Get In Touch
               </Button>
             </Link>
