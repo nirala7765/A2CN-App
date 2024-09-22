@@ -88,7 +88,7 @@ function Homepage() {
       <HeroSection />
 
       <div className="w-full">
-        <div className="w-5/6 h-[600px] mx-auto md:h-[400px]">
+        <div className="w-5/6  mx-auto md:h-[400px]">
           <div className="w-full flex mt-6">
             <div className="w-1/3 md:w-1/3  ">
               <div className="w-full md:w-full md:mt-[40px] bg-hrcolor h-[2px] mt-[25px]"></div>
