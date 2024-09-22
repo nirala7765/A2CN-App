@@ -4,23 +4,29 @@ import Footer from "../Components/Footer";
 import { Button } from "@material-tailwind/react";
 import { Player } from "@lottiefiles/react-lottie-player";
 import { Link } from "react-router-dom";
-
 import DirectorPhoto from "../Images/DirectorPhoto.png";
 import COOPhoto from "../Images/Riz.JPG";
 import CtoNewImage from "../Images/ctonewphoto.jpg";
-
 import startup from "../Images/startups.svg";
 import rescue from "../Images/rescue.svg";
 import enterprises from "../Images/enterprises.svg";
 import strategy from "../Images/strategy.svg";
+import { useState, useEffect } from 'react';
+
+
 
 function AboutPage() {
+
+ 
+
+
   return (
     <div className="bg-newbg">
       <Header />
 
       <main>
-        <section className="pb-6 md:h-auto bg-hrcolor">
+     
+      <section className="pb-6 md:h-auto bg-hrcolor">
           <div className="w-full md:w-5/6 mx-auto flex flex-col-reverse md:flex-row bg-transparent">
             <div className="md:w-1/2 bg-transparent">
               <div className="mt-[10px] lg:mt-[200px] md:mb-[15px]">
