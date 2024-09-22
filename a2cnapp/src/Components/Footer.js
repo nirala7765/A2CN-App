@@ -5,7 +5,6 @@ import {
   FaLinkedin,
   FaWhatsappSquare,
 } from "react-icons/fa";
-
 import logo from "../Images/Maanc Logo.png";
 import { Link } from "react-router-dom";
 
@@ -82,12 +81,12 @@ function Footer() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/3 h-[270px] text-white">
-            <h1 className="font-bold text-[25px] mb-[10px] mt-[10px] text-left">
+          <div className="w-full md:w-1/3 h-[270px] text-white text-center md:text-left">
+            <h1 className="font-bold text-[25px] mb-[10px] mt-[10px]">
               Locations
             </h1>
             <div className="gap-2">
-              <h1 className="text-[20px] text-left">
+              <h1 className="text-[20px]">
                 Perungalattur, Tambaram <br />
                 Chennai-600063
               </h1>
