@@ -33,7 +33,7 @@ function Mobileapp() {
               <div className="md:w-1/2 bg-transparent lg:mt-0 md:mt-9 mt-0">
                 <Player
                   className=""
-                  src="https://lottie.host/0d7ac3b4-3037-474e-8ed7-76a5229655e1/DiWpVNkxF1.json"
+                  src="https://lottie.host/3b64e75d-f43e-4265-9eee-567c722740b7/XavntMF7d0.json"
                   loop
                   autoplay
                   speed={0.5}

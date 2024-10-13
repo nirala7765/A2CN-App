@@ -29,7 +29,7 @@ function DigitalMarketing() {
 
             <div className="md:w-1/2 bg-transparent lg:mt-0 md:mt-9 mt-0">
               <Player
-                src="https://lottie.host/0d7ac3b4-3037-474e-8ed7-76a5229655e1/DiWpVNkxF1.json"
+                src="https://lottie.host/3d6d4a90-1cc4-4656-8bb6-e43bcb7f451a/yQJ7aKG2VY.json"
                 loop
                 autoplay
                 speed={0.5}

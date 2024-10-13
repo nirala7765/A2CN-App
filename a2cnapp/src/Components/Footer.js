@@ -35,7 +35,7 @@ function Footer() {
                 <Link to="https://www.linkedin.com/company/100496029/admin/feed/posts/">
                   <FaLinkedin />
                 </Link>
-                <Link to="https://wa.link/a64rph">
+                <Link to="https://wa.link/6yj9sy">
                   <FaWhatsappSquare />
                 </Link>
               </div>

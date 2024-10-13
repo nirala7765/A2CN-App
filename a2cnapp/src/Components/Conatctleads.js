@@ -71,7 +71,7 @@ function ContactLeads() {
             <a href="https://www.linkedin.com/company/100496029/admin/feed/posts/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://wa.link/a64rph" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.link/6yj9sy" target="_blank" rel="noopener noreferrer">
               <FaWhatsappSquare />
             </a>
           </div>
