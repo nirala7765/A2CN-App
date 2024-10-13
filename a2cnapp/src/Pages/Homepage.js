@@ -143,7 +143,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[400px] h-[450px]"
                 src={imagesalute}
-                alt="Image Salute"
+                alt="Salute"
               />
             </div>
 
@@ -183,7 +183,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[550px] h-[450px]"
                 src={cybersecurityimage}
-                alt="Cyber Security Image"
+                alt="Cyber Security "
               />
             </div>
           </div>
@@ -233,7 +233,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[550px] h-[450px]"
                 src={cellphoneDesignImage}
-                alt="Cellphone Design Image"
+                alt="Cellphone Design "
               />
             </div>
           </div>
@@ -243,7 +243,7 @@ function Homepage() {
               <img
                 className="w-full md:w-[100%] h-[auto]"
                 src={Puzzlephoto}
-                alt="Puzzle Photo"
+                alt="Puzzle "
               />
 
               <h2 className="text-[45px] md:text-[35px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-5">
@@ -284,7 +284,7 @@ function Homepage() {
                 <img
                   className="w-[50%] md:w-[50%] h-[auto]"
                   src={websettingmage}
-                  alt="Web Setting Image"
+                  alt="Web Setting "
                 />
                 
                 <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
@@ -303,7 +303,7 @@ function Homepage() {
                 <img
                   className="w-[40%] md:w-[50%] h-[auto]"
                   src={ProductDesignImage}
-                  alt="Product Design Image"
+                  alt="Product Design "
                 />
                 <h2 className="text-start text-[25px] md:text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold text-white mt-3">
                   Product Design
@@ -340,7 +340,7 @@ function Homepage() {
 
           <div className="w-full flex flex-wrap lg:gap-4 md:gap-8 md:space-y-2  space-y-2">
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer ">
-              <img className="w-full" src={EdTechImage} alt="EdTech Image" />
+              <img className="w-full" src={EdTechImage} alt="EdTech " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 EdTech
               </h2>
@@ -348,7 +348,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={FintechImage} alt="FinTech Image" />
+              <img className="w-full" src={FintechImage} alt="FinTech " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 FinTech
               </h2>
@@ -356,7 +356,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={MedTechImage} alt="Med Tech Image" />
+              <img className="w-full" src={MedTechImage} alt="Med Tech " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 MedTech
               </h2>
@@ -364,7 +364,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={HitechImage} alt="Hi Tech Image" />
+              <img className="w-full" src={HitechImage} alt="Hi Tech " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 HiTech
               </h2>
@@ -372,7 +372,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={reatilImage} alt="Reatil Image" />
+              <img className="w-full" src={reatilImage} alt="Reatil " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 Reatil
               </h2>
@@ -380,7 +380,7 @@ function Homepage() {
 
             {/* Repeat this block for each item */}
             <div className="w-full md:w-[30%] lg:w-[15%] py-4 rounded-md hover:bg-hoverbg cursor-pointer">
-              <img className="w-full" src={IotImage} alt="Iot Image" />
+              <img className="w-full" src={IotImage} alt="Iot " />
               <h2 className="text-[20px] font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5">
                 IOT
               </h2>
@@ -410,7 +410,7 @@ function Homepage() {
               <img
                 className="w-[150px] h-[150px]  rounded-full object-cover object-top justify-center mx-auto"
                 src={NiralaImage}
-                alt="CEO Image"
+                alt="CEO "
               />
 
               <p className="ml-3 text-[20px] md:text-[18px]  font-gtwalsheim font-arial font-gadget font-sansf font-bold mt-5 md:w-[80%] md:mx-auto">
