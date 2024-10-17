@@ -3,6 +3,8 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import { Button } from "@material-tailwind/react";
 import { Player } from "@lottiefiles/react-lottie-player";
+import MobileAppDevelopment from '../Components/MobileAppDevelopment';
+import DigitalMarketingcomp from '../Components/DigitalMarketingcomp';
 
 function DigitalMarketing() {
   return (
@@ -39,9 +41,11 @@ function DigitalMarketing() {
           </div>
         </section>
 
-        <section className='h-[800px] text-white text-[35px] flex items-center justify-center'>
-          <h2>Under Construction...</h2>
-        </section>
+       <div>
+        <DigitalMarketingcomp/>
+       </div>
+
+        
       </main>
 
       <Footer />
