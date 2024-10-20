@@ -22,6 +22,8 @@ function OurWork() {
     speed: 500,
     slidesToShow: 3, // 3 slides on larger screens
     slidesToScroll: 1,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 3000, // Set autoplay speed in milliseconds (3 seconds here)
     responsive: [
       {
         breakpoint: 1024, // Tablet view
